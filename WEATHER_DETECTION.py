@@ -1,4 +1,3 @@
-
 import tkinter
 from tkinter import * 
 from tkinter import messagebox 
@@ -8,12 +7,7 @@ import requests, json
 
 def tell_weather() : 
 
-	
 
-    api_key = "1847ccd3f0b8ba2b289ae9940c8e25dc"
-
-	
-	
     city_name = city_field.get() 
 
 
@@ -193,7 +187,7 @@ if __name__ == "__main__" :
    
     label14.grid(row = 15, column = 0, sticky ="E") 
     label4.grid(row = 5, column = 0, sticky ="E") 
-#    label15.grid(row = 3, column = 1, sticky ="E") 
+
   
 
 
